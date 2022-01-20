@@ -82,9 +82,6 @@
 <script>
 export default {
   name: 'FormRegistration',
-  props: {
-    msg: String
-  },
   data() {
 return {
 errors: [],
@@ -203,15 +200,11 @@ if (this.name &&
 { 
 alert( "Данные успешно сохранены");
 return true;
-}
-},
+}},
 emptyArray: function(){
   this.errors.splice(0);
-}
-}
-}
+}}}
 </script>
-
 
 <style scoped lang="sass">
 input,select
